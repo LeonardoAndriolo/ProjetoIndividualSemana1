@@ -12,10 +12,10 @@ var config = {
 
 var game = new Phaser.Game(config);
 
-var peixinho;
+var peixinho; // Test
 
 function preload() {
-    this.load.image('mar', 'assets/bg_azul-escuro.png');
+    this.load.image('mar', 'assets/bg_ocean.gif');
 
     this.load.image('logo', 'assets/logo-inteli_branco.png');
 
@@ -28,11 +28,11 @@ function preload() {
 }
 
 function create() {
-    this.add.image(400, 300, 'mar');
+    this.add.image(400, 300, 'mar').setScale(1.6);
 
     this.add.image(330, 400, 'poseidon').setScale(0.6);
 
-    this.add.image(680, 525, 'logo').setScale(0.5);
+    this.add.image(680, 60, 'logo').setScale(0.6);
 
     bubbles = this.add.image(500, 300, 'bubbles').setScale(0.1);
     
