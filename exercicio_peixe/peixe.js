@@ -16,13 +16,9 @@ var peixinho; // Test
 
 function preload() {
     this.load.image('mar', 'assets/bg_ocean.gif');
-
     this.load.image('logo', 'assets/logo-inteli_branco.png');
-
     this.load.image('peixe', 'assets/peixes/peixe_tilapia.png');
-
     this.load.image('poseidon', 'assets/poseidon.png');
-
     this.load.image('bubbles', 'assets/bubbles.png');
 
     this.load.audio("main_theme", "assets/audio/water_prelude.mp3");
